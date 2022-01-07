@@ -63,7 +63,7 @@ U 1 1 61C5B4A5
 P 6000 4650
 F 0 "H1" H 6100 4699 50  0000 L CNN
 F 1 "MountingHole_Pad" H 6100 4608 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6000 4650 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6000 4650 50  0001 C CNN
 F 3 "~" H 6000 4650 50  0001 C CNN
 	1    6000 4650
 	1    0    0    -1  
@@ -149,60 +149,12 @@ Wire Wire Line
 Wire Wire Line
 	2000 2350 2300 2350
 $Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 61C61D25
-P 5950 4000
-F 0 "H4" H 6050 4049 50  0000 L CNN
-F 1 "MountingHole_Pad" H 6050 3958 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 5950 4000 50  0001 C CNN
-F 3 "~" H 5950 4000 50  0001 C CNN
-	1    5950 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR0103
-U 1 1 61C61D2B
-P 5950 4150
-F 0 "#PWR0103" H 5950 3900 50  0001 C CNN
-F 1 "Earth" H 5950 4000 50  0001 C CNN
-F 2 "" H 5950 4150 50  0001 C CNN
-F 3 "~" H 5950 4150 50  0001 C CNN
-	1    5950 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5950 4150 5950 4100
-$Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 61C62167
-P 6050 3300
-F 0 "H3" H 6150 3349 50  0000 L CNN
-F 1 "MountingHole_Pad" H 6150 3258 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6050 3300 50  0001 C CNN
-F 3 "~" H 6050 3300 50  0001 C CNN
-	1    6050 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:Earth #PWR0104
-U 1 1 61C6216D
-P 6050 3450
-F 0 "#PWR0104" H 6050 3200 50  0001 C CNN
-F 1 "Earth" H 6050 3300 50  0001 C CNN
-F 2 "" H 6050 3450 50  0001 C CNN
-F 3 "~" H 6050 3450 50  0001 C CNN
-	1    6050 3450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6050 3450 6050 3400
-$Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 61C62570
 P 6000 2600
 F 0 "H2" H 6100 2649 50  0000 L CNN
 F 1 "MountingHole_Pad" H 6100 2558 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 6000 2600 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6000 2600 50  0001 C CNN
 F 3 "~" H 6000 2600 50  0001 C CNN
 	1    6000 2600
 	1    0    0    -1  
@@ -267,6 +219,17 @@ Wire Wire Line
 	1550 5250 1800 5250
 Wire Wire Line
 	2450 5250 2200 5250
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 604CA970
+P 4950 4900
+F 0 "H3" H 5050 4946 50  0000 L CNN
+F 1 "MountingHole" H 5050 4855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 4950 4900 50  0001 C CNN
+F 3 "~" H 4950 4900 50  0001 C CNN
+	1    4950 4900
+	1    0    0    -1  
+$EndComp
 Text Label 1900 3450 0    50   ~ 0
 GND2
 $EndSCHEMATC
